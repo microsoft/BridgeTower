@@ -10,7 +10,7 @@ numpy==1.22.3
 opencv-python==4.5.5.64
 pandas==1.4.1
 Pillow==9.0.1
-protobuf==3.19.4
+protobuf==3.19.5
 pyarrow==7.0.0
 pytorch-lightning==1.5.10
 requests==2.27.1
