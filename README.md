@@ -43,6 +43,12 @@ Vision-Language (VL) models with the Two-Tower architecture have dominated visua
   - Visual Entailment on SNLI-VE: [BASE](https://chenfei.blob.core.windows.net/data/G/LCI/best_checkpoints/BridgeTower_ftfpt_base_snlive.ckpt?sv=2020-10-02&st=2022-11-24T12%3A15%3A27Z&se=2027-11-25T12%3A15%3A00Z&sr=b&sp=r&sig=IccPmnxQYIpWO8m6kwtEFir9wmVq1SsLOqmw0FRc9hY%3D)
   - Visual Reasoning on NLVR$^2$: [BASE](https://chenfei.blob.core.windows.net/data/G/LCI/best_checkpoints/BridgeTower_ftfpt_base_nlvr2.ckpt?sv=2020-10-02&st=2022-11-24T12%3A15%3A09Z&se=2027-11-25T12%3A15%3A00Z&sr=b&sp=r&sig=AL3q15eyhPBHaWY0FOop9goHVq8CbNluABDk%2FS94rkI%3D)
   - Image-Text Retrieval on MSCOCO: [BASE](https://chenfei.blob.core.windows.net/data/G/LCI/best_checkpoints/BridgeTower_ftfpt_base_irtr_itm_itc_coco.ckpt?sv=2020-10-02&st=2022-11-24T12%3A13%3A18Z&se=2027-11-25T12%3A13%3A00Z&sr=b&sp=r&sig=ahM%2FyI8fg9D4obCZsNKaxLzPVz2y8RX8ydZNToGavC4%3D)
+- Here is an example for downloading a checkpoint.
+
+  ```Shell
+  # azcopy copy [remote path] [local path]
+  azcopy copy "https://chenfei.blob.core.windows.net/data/G/LCI/best_checkpoints/BridgeTower_pt_base.ckpt?sv=2020-10-02&st=2022-11-24T12%3A18%3A49Z&se=2027-11-25T12%3A18%3A00Z&sr=b&sp=r&sig=BJigddAMHfNUtQuTGH8bJUrzAO3LfaeSm48AXUqZngY%3D" "~/BridgeTower_pt_base.ckpt"
+  ```
 
 ## Pre-training on Image-Text Datasets
 
