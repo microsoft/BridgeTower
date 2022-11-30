@@ -17,8 +17,8 @@ sudo apt install python3.8 python3.8-venv
 ## create virtual environment
 cd ~/BT
 python3.8 -m venv venv_BridgeTower
-echo "alias venv_BridgeTower='source ~/BT/venv_BridgeTower/bin/activate'" >> ~/.bashrc
-echo "source ~/BT/venv_BridgeTower/bin/activate" >> ~/.bashrc
+# echo "alias venv_BridgeTower='source ~/BT/venv_BridgeTower/bin/activate'" >> ~/.bashrc
+# echo "source ~/BT/venv_BridgeTower/bin/activate" >> ~/.bashrc
 source ~/.bashrc
 
 ## git clone
