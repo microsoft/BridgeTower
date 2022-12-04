@@ -52,7 +52,7 @@ Vision-Language (VL) models with the Two-Tower architecture have dominated visua
   sudo cp ./azcopy_linux_amd64_*/azcopy /usr/bin/
   sudo chmod -R 777 /usr/bin/azcopy
   # azcopy copy [remote path] [local path]
-  azcopy copy "https://chenfei.blob.core.windows.net/data/G/LCI/best_checkpoints/BridgeTower_pt_base.ckpt?sv=2020-10-02&st=2022-11-24T12%3A18%3A49Z&se=2027-11-25T12%3A18%3A00Z&sr=b&sp=r&sig=BJigddAMHfNUtQuTGH8bJUrzAO3LfaeSm48AXUqZngY%3D" "~/BridgeTower_pt_base.ckpt"
+  azcopy copy "https://chenfei.blob.core.windows.net/data/G/LCI/best_checkpoints/BridgeTower_pt_base.ckpt?sv=2020-10-02&st=2022-11-24T12%3A18%3A49Z&se=2027-11-25T12%3A18%3A00Z&sr=b&sp=r&sig=BJigddAMHfNUtQuTGH8bJUrzAO3LfaeSm48AXUqZngY%3D" "./BridgeTower_pt_base.ckpt"
   ```
 
 ## Pre-training on Image-Text Datasets
