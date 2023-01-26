@@ -4,9 +4,12 @@ This repo is the official `Pytorch` implementation of ["BridgeTower: Building Br
 
 ## Updates
 
-- Nov, 2022: BridgeTower got accepted by [AAAI'23](https://aaai.org/Conferences/AAAI-23/). Code and checkpoints are released.
-- Jun, 2022: We release the preprint version in [Arxiv](https://arxiv.org/abs/2206.08657).
-- May, 2022: BridgeTower (single model, 4M data) achieved 78.73% and 81.15% (base and large) on the [VQAv2 Challenge](https://eval.ai/web/challenges/challenge-page/830/leaderboard/2278) test-std set.
+- Feb. 2023: BridgeTower was integrated into [Hugging Face - Transformers](https://github.com/huggingface/transformers/). 
+  - [Model Hub](https://huggingface.co/BridgeTower), [Code](https://github.com/huggingface/transformers/tree/main/src/transformers/models/bridgetower) and [Documentation](https://huggingface.co/docs/transformers/main/en/model_doc/bridgetower) are available. 
+  - Thanks to [Anahita Bhiwandiwalla](https://github.com/abhiwand), [Tiep Le](https://github.com/tileintel) and [Shaoyen Tseng](https://github.com/shaoyent-IL) from [Intel Labs](https://github.com/IntelLabs) for their great work! 
+- Nov. 2022: BridgeTower got accepted by [AAAI'23](https://aaai.org/Conferences/AAAI-23/). Code and checkpoints are released.
+- Jun. 2022: We released the preprint version in [Arxiv](https://arxiv.org/abs/2206.08657).
+- May. 2022: BridgeTower (single model, 4M data) achieved 78.73% and 81.15% (base and large) on the [VQAv2 Challenge](https://eval.ai/web/challenges/challenge-page/830/leaderboard/2278) test-std set.
 
 ## Abstract
 
