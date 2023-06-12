@@ -26,6 +26,6 @@ torch==1.11.0+cu113
 torchaudio==0.11.0+cu113
 torchmetrics==0.7.2
 torchvision==0.12.0+cu113
-transformers==4.17.0
+transformers==4.30.0
 urllib3==1.26.8
 wandb==0.12.11
