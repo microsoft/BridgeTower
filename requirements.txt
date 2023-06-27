@@ -12,7 +12,7 @@ pandas==1.4.1
 Pillow==9.0.1
 protobuf==3.19.4
 pyarrow==7.0.0
-pytorch-lightning==1.5.10
+pytorch-lightning==1.6.0
 requests==2.27.1
 tqdm==4.63.0
 sacred==0.8.2
