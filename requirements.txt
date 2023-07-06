@@ -17,7 +17,7 @@ requests==2.27.1
 tqdm==4.63.0
 sacred==0.8.2
 scikit-learn==1.1.1
-scipy==1.8.1
+scipy==1.10.0
 six==1.16.0
 tensorboard==2.8.0
 timm==0.5.4
