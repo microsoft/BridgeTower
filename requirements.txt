@@ -9,7 +9,7 @@ Markdown==3.3.6
 numpy==1.22.3
 opencv-python==4.5.5.64
 pandas==1.4.1
-Pillow==9.0.1
+Pillow==9.3.0
 protobuf==3.19.4
 pyarrow==7.0.0
 pytorch-lightning==1.5.10
